@@ -1,0 +1,90 @@
+/* CSS Document */
+h1 {
+	font-family: AnaBilandzija;
+	font-size: 50px
+	
+}
+
+h1, h2{
+	text-align: center;
+}
+p {
+	background-color: #6F8FAF;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 40px;
+	text-align: center;
+	
+}
+.pozadinaslova{
+	font-size: 25px;
+	background-color: transparent;
+}
+
+body{
+	background-image: url("slike/pozadina_2.jpeg");
+	background-size: cover; 
+}
+.fontkucica{
+	font-size: 10px;
+}
+.o_meni{
+	text-align: center;
+	color: #6082B6;
+	
+}
+.paragraf_1{
+	text-align: justify;
+}
+.pozadina_omeni{
+	background-image: url("slike/pozadina_1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.moji_radovi{
+	text-align: left;
+	text-decoration: none;
+	
+}
+.glazbenici{
+	text-align: left;
+	padding: 20px;
+	width: 200px;
+	
+}
+.liste{
+	font-size: 20px; 
+	line-height: 35px; 
+}
+.link{
+	font-size: 20px
+}
+.naslov{
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+.menu{
+	padding: 20px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+}
+.menu li{
+	display: inline;
+	background-color:#6082B6;
+			padding:25px;
+			border: 2px solid #0047AB;
+}
+.menu li:active {background-color:	#0047AB;}
+		
+	.menu li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	
+	</style>
